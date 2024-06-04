@@ -26,11 +26,11 @@ body{
     
 }
  :root {
-     --main-blue: navy;
+     --main-blue: #003A76;
      --light-blue: #98BAE1;
 }
  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .p{
-     color:navy;
+     color:#003A76;
 }
 a{
     color: var(--main-blue);
@@ -232,7 +232,7 @@ span,ul,li{
      background-position: center top;
 }
  .footer{
-     background-color: navy;
+     background-color: #003A76;
      color: white;
 }
 footer a{
@@ -335,7 +335,7 @@ footer a:hover{
          position: absolute;
              height: 99.25%;
 
-         background-color: #04049269;
+         background-color: #02029b1f;
          z-index: 5;
             
     top: 0;
