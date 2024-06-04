@@ -301,7 +301,7 @@ footer a:hover{
      }
      .content-hero h1{
          font-size: 1.5rem;
-         margin-bottom: 1rem;
+         margin-bottom: 2rem;
      }
       .accordion-button::after{
          right: 5px;
@@ -309,7 +309,7 @@ footer a:hover{
 }
      .accordion-row h2{
          margin-top: 1rem;
-         margin-bottom: 1rem;
+         margin-bottom: 2rem;
      }
      .underline{width: 100%}
 
@@ -320,7 +320,7 @@ footer a:hover{
          flex-direction: column;
      }
      .info-section .image-wrapper{
-         margin-bottom: 2rem;
+         margin-bottom: 1rem;
      }
      .absolute{
          z-index: 9;
@@ -340,6 +340,9 @@ footer a:hover{
             
     top: 0;
          left: 0;
+     }
+     .info-section .image-wrapper img{
+         max-width: 110px;
      }
      
      .hero-text p{
@@ -366,13 +369,13 @@ footer a:hover{
      .hero-text {
    
     max-width: 66%;
-     margin-top: 1rem;
+     margin-top: 2rem;
      }
      
      
      
      .hero-video video{
-         height: 110lvh;
+         height: 120lvh;
          object-fit: cover;
          object-position: left;
     }
@@ -385,7 +388,7 @@ footer a:hover{
     margin-bottom: 3rem;
 }
      .footer-company{
-         margin-bottom: 1rem;margin-top: 1rem;
+         margin-bottom: 1rem;margin-top: 2rem;
      }
      
      .footer-deco {
@@ -426,7 +429,12 @@ footer a:hover{
      
      
      
-     
+     .pt-8{
+         padding-top: 4rem!Important
+     }
+     .pb-8{
+        padding-bottom: 4rem!important
+     }
      
 }
 
