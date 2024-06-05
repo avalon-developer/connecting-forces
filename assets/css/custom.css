@@ -1,489 +1,480 @@
-
-@font-face { 
- font-family: 'Gotham-Bold';  
- src: url("../css/Gotham-Bold.otf") format('opentype');
-
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("../css/Gotham-Bold.otf") format("opentype");
 }
 
-
-@font-face { 
- font-family: 'Gotham Book';  
- src: url("../css/Gotham-Book.otf") format('opentype');
-}
-  
-h1{
-    font-family: 'Gotham-Bold';
-}
-strong{
-        font-family: 'Gotham-Bold';
-
-}
-body{
-     background: white;
-     color:black;
-    
-    
-    
-}
- :root {
-     --main-blue: #003A76;
-     --light-blue: #98BAE1;
-}
- h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .p{
-     color:#003A76;
-}
-a{
-    color: var(--main-blue);
-      font-family: 'Gotham-Bold';
-    text-decoration: underline;
-}
-a:hover{
-    color: var(--main-blue);
-      font-family: 'Gotham-Bold';
-    text-decoration: underline;
-}
- h1{
-     font-size:3rem;
-     text-transform: uppercase;
-     font-weight: bold;
-         font-family: 'Gotham-Bold';
-
-}
- h2{
-     font-size: 2rem;
-     text-transform: uppercase;
-     font-weight: bold;
-         font-family: 'Gotham-Bold';
-
-}
- h3{
-     font-size: 1.5rem;
-     text-transform: uppercase;
-     font-weight: bold;
-         font-family: 'Gotham-Bold';
-
-}
- p{
-     font-size: 1.1rem;
-      font-family: 'Gotham Book'; 
-}
-span,ul,li{
-     font-family: 'Gotham Book'; 
-}
- .contact-btn{
-     color: white;
-     font-weight: bold;
-     text-decoration: none;
-}
- a.contact-btn:hover{
-     color: white;
-     text-decoration: none;
-}
-.contact-btn img{
-    height: 25px;
-    margin-left: 4px
-}
- .container{
-     max-width: 1150px;
-}
- .sticky-top{
-     position: absolute;
-     width: 100%;
-}
- .image-wrapper img{
-     max-width: 100%;
-}
- .hero-video{
-     position: relative;
-}
- .hero-video video{
-     width: 100%;
+@font-face {
+  font-family: "Gotham Book";
+  src: url("../css/Gotham-Book.otf") format("opentype");
 }
 
- .absolute{
-     position: absolute;
-     width:100%;
-     height: 100%;
-     left: 0;
-     top: 0;
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
+h1 {
+  font-family: "Gotham-Bold";
 }
- .flex-fix{
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     justify-content: end;
+strong {
+  font-family: "Gotham-Bold";
 }
- .content-hero h1, .content-hero p, .content-hero span{
-     color: white;
-     font-weight: bold;
+body {
+  background: white;
+  color: black;
 }
- .content-hero h1{
-     margin-bottom: 4rem;
-     font-size: 4rem;
-     text-transform: uppercase;
+:root {
+  --main-blue: #003a76;
+  --light-blue: #98bae1;
 }
- .hero-text{
-     margin-top: 3rem;
-     color: white;
-     max-width: 800px;
-     margin-left: auto;
-     margin-right: auto;
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.p {
+  color: #003a76;
 }
- .hero-text p{
-     font-size: 1.5rem;
+a {
+  color: var(--main-blue);
+  font-family: "Gotham-Bold";
+  text-decoration: underline;
 }
- .content-hero{
-     text-align: center;
-     color: white;
+a:hover {
+  color: var(--main-blue);
+  font-family: "Gotham-Bold";
+  text-decoration: underline;
 }
- .companies{
-     display: flex;
-     justify-content: space-between;
-     display: grid;
-     grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Gotham-Bold";
 }
- .company .ball{
-    /*background-color: white;
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Gotham-Bold";
+}
+h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Gotham-Bold";
+}
+p {
+  font-size: 1.1rem;
+  font-family: "Gotham Book";
+}
+span,
+ul,
+li {
+  font-family: "Gotham Book";
+}
+.contact-btn {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+a.contact-btn:hover {
+  color: white;
+  text-decoration: none;
+}
+.contact-btn img {
+  height: 25px;
+  margin-left: 4px;
+}
+.container {
+  max-width: 1150px;
+}
+.sticky-top {
+  position: absolute;
+  width: 100%;
+}
+.image-wrapper img {
+  max-width: 100%;
+}
+.hero-video {
+  position: relative;
+}
+.hero-video video {
+  width: 100%;
+}
+
+.absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-fix {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: end;
+}
+.content-hero h1,
+.content-hero p,
+.content-hero span {
+  color: white;
+  font-weight: bold;
+}
+.content-hero h1 {
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.hero-text {
+  margin-top: 3rem;
+  color: white;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-text p {
+  font-size: 1.5rem;
+}
+.content-hero {
+  text-align: center;
+  color: white;
+}
+.companies {
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
+}
+.company .ball {
+  /*background-color: white;
     */
-     display: flex;
-     flex-direction: column 
+  display: flex;
+  flex-direction: column;
 }
- .company-logo{
-     margin: 0 auto;
-    /* max-width: 80px;
+.company-logo {
+  margin: 0 auto;
+  /* max-width: 80px;
     */
-     width: 100%;
+  width: 100%;
 }
- .company{
-     transition: .2s all linear 
+.company {
+  transition: 0.2s all linear;
 }
- .company:hover{
-     transform: scale(1.05) 
+.company:hover {
+  transform: scale(1.05);
 }
- .line{
-     position: absolute 
+.line {
+  position: absolute;
 }
- .company-icon{
-     max-width: 50px;
-     margin: 0 auto;
+.company-icon {
+  max-width: 50px;
+  margin: 0 auto;
 }
- .dot-line{
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-position: center;
+.dot-line {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
- .info-section .image-wrapper img{
-     max-width: 140px 
+.info-section .image-wrapper img {
+  max-width: 140px;
 }
- .info-section{
-     background-color: #f1f7ff;
-     margin-top: -5px;
+.info-section {
+  background-color: #f1f7ff;
+  margin-top: -5px;
 }
- .more-info .image-wrapper img{
-     max-width: 85px 
+.more-info .image-wrapper img {
+  max-width: 85px;
 }
- .accordion-button{
-     padding: 0;
-     background: transparent;
+.accordion-button {
+  padding: 0;
+  background: transparent;
 }
- .accordion-content{
-     margin-left: auto;
+.accordion-content {
+  margin-left: auto;
 }
- .accordion-button{
-     color: var(--main-color);
+.accordion-button {
+  color: var(--main-color);
 }
- .accordion-body{
-     padding:2rem 0;
-
+.accordion-body {
+  padding: 2rem 0;
 }
- .accordion-button:not(.collapsed){
-     background-color: transparent;
-     color: var(--main-color);
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: var(--main-color);
 }
- .accordion-row{
-     padding-bottom: 15px;
-         justify-content: space-betweeen;
-
+.accordion-row {
+  padding-bottom: 15px;
+  justify-content: space-betweeen;
 }
-.accordion-body h3, .accordion-body h2, .accordion-body h1, .accordion-body h4{
-        text-transform: initial;
-
+.accordion-body h3,
+.accordion-body h2,
+.accordion-body h1,
+.accordion-body h4 {
+  text-transform: initial;
 }
-.company-logo-a{
-    margin-left: auto
+.company-logo-a {
+  margin-left: auto;
 }
- .underline{
-     border-bottom: 2px solid var(--light-blue);
+.underline {
+  border-bottom: 2px solid var(--light-blue);
 }
- .accordion-header h2{
-     margin: 0;
+.accordion-header h2 {
+  margin: 0;
 }
- .accordion-button:not(.collapsed)::after{
-     background-image: url("../img/minus.png") 
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/minus.png");
 }
- .accordion-button::after{
-     background-image: url("../img/plis.png");
-     position: absolute;
-     right: 0px;
+.accordion-button::after {
+  background-image: url("../img/plis.png");
+  position: absolute;
+  right: 0px;
 }
-.accordion-body img{
-    max-width: 100%;
+.accordion-body img {
+  max-width: 100%;
 }
- .footer-deco {
-     min-height: 300px;
-     background-image: url("../img/event/Footer-grafiikka.png");
-     background-size: 120%;
-     background-position: center top;
+.footer-deco {
+  min-height: 300px;
+  background-image: url("../img/event/Footer-grafiikka.png");
+  background-size: 120%;
+  background-position: center top;
 }
- .footer{
-     background-color: #003A76;
-     color: white;
+.footer {
+  background-color: #003a76;
+  color: white;
 }
-footer a{
-    font-family: "Gotham Book";
-    text-decoration: none;
+footer a {
+  font-family: "Gotham Book";
+  text-decoration: none;
 }
-footer a:hover{
-    font-family: "Gotham Book";
-    text-decoration: underline;
-    
+footer a:hover {
+  font-family: "Gotham Book";
+  text-decoration: underline;
 }
- .footer p{
-     font-size: .9rem;
+.footer p {
+  font-size: 0.9rem;
 }
- .footer p, .footer h2,.footer h3, .footer h4, .footer span, .footer a{
-     color: white;
-}
- 
-.footer-logos img{
-      max-width: 290px;
-
-}
-.footer-company{
-    min-height: 40px;
-    margin-bottom: 2rem;
-}
-.footer-company img{
-    max-height: 40px;
-   
-}
-.large-header h3{
-    font-size: 3rem;margin-bottom: 6rem
-}
-.footer-logos{
-    margin-top: 2rem
-}
-.navbar1{
-    padding: 0;
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-}
-.navbar-nav1{
-    text-align: end
+.footer p,
+.footer h2,
+.footer h3,
+.footer h4,
+.footer span,
+.footer a {
+  color: white;
 }
 
-.overlay{
+.footer-logos img {
+  max-width: 290px;
+}
+.footer-company {
+  min-height: 40px;
+  margin-bottom: 2rem;
+}
+.footer-company img {
+  max-height: 40px;
+}
+.large-header h3 {
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+.footer-logos {
+  margin-top: 2rem;
+}
+.navbar1 {
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+.navbar-nav1 {
+  text-align: end;
+}
+
+.overlay {
+  display: none;
+}
+@media (max-width: 1100px) {
+  .navbar1 {
+    top: -35px;
+  }
+  .content-hero {
+    padding: 4rem 0;
+  }
+  .content-hero h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-logos img {
+    margin: 0 auto;
+  }
+  .footer {
+    text-align: center;
+  }
+  .navbar1 {
     display: none;
-}
- @media(max-width:1100px){
-     .navbar1{
-         top:-35px;
-     }
-     .content-hero{
-         padding: 4rem 0
-     }
-     .content-hero h1{
-         font-size: 2rem;
-     }
+  }
+  .content-hero {
+    padding: 0;
+  }
+  .content-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .accordion-button::after {
+    right: 5px;
+    top: unset;
+    bottom: 16px;
+  }
+  .accordion-row h2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .underline {
+    width: 100%;
+  }
 
-}
-
-
-
- @media(max-width:768px){
-     
-     .navbar1{
-         display:none;
-     }
-     .content-hero{
-         padding: 0;
-     }
-     .content-hero h1{
-         font-size: 2.5rem;
-         margin-bottom: 1rem;
-     }
-      .accordion-button::after{
-         right: 5px;
-          top:unset;
-              bottom: 16px;
-
-}
-     .accordion-row h2{
-         margin-top: 1rem;
-         margin-bottom: 2rem;
-     }
-     .underline{width: 100%}
-
-     .accordion-button .service-logo{
-         width:100%;
-     }
-     .accordion-button{
-         flex-direction: column;
-     }
-     .info-section .image-wrapper{
-         margin-bottom: 1rem;
-     }
-     .absolute{
-         z-index: 9;
-         width: 100%;
-     }
-     .absolute .col-md-12{
-         padding: 0;
-     }
-     .overlay{
-         display: block;
-         width: 100%;
-         position: absolute;
-             height: 99.25%;
-
-         background-color: #02029b1f;
-         z-index: 5;
-            
-    top: 0;
-         left: 0;
-     }
-     .info-section .image-wrapper img{
-         max-width: 110px;
-     }
-     
-     .hero-text p{
-         font-size: 1rem;
-     }
-          .company{
-              max-width: 30%;
-
-         margin: 0 auto
-
-     }
-     .companies{
-             display: flex;
+  .accordion-button .service-logo {
+    width: 100%;
+  }
+  .accordion-button {
     flex-direction: column;
-         gap:00px;
-}
+  }
+  .info-section .image-wrapper {
+    margin-bottom: 1rem;
+  }
+  .absolute {
+    z-index: 9;
+    width: 100%;
+  }
+  .absolute .col-md-12 {
+    padding: 0;
+  }
+  .overlay {
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: 99.25%;
 
-     .info-section{
-         text-align: center;
-     }
-     .service-logo{
-         text-align: center;
-     }
-     
-     .headeri{
-         text-align: center;
-     }     
-     .dot-line{
-             height: 35px;
+    background-color: #02029b1f;
+    background-color: #003a7652;
+    z-index: 5;
+
+    top: 0;
+    left: 0;
+  }
+  .info-section .image-wrapper img {
+    max-width: 110px;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .company {
+    max-width: 30%;
+
+    margin: 0 auto;
+  }
+  .companies {
+    display: flex;
+    flex-direction: column;
+    gap: 00px;
+  }
+
+  .info-section {
+    text-align: center;
+  }
+  .service-logo {
+    text-align: center;
+  }
+
+  .headeri {
+    text-align: center;
+  }
+  .dot-line {
+    height: 35px;
     /*transform: rotate(90deg);*/
-              background-image: url("../img/event/Dotted-line-vertical.png")!important;
-
-     }
-     .hero-text {
-   
+    background-image: url("../img/event/Dotted-line-vertical.png") !important;
+  }
+  .hero-text {
     max-width: 85%;
-     margin-top: 2rem;
-     }
-     
-     
-     
-     .hero-video video{
-         height: 125lvh;
-         object-fit: cover;
-         object-position: 10%;
-    }
-     
-     .company-logo-a{
-      
-         margin-left: unset;
-     }
-     .digia-logo{
-         max-width:110px!important;
-     }
-     .modirum-logo{
-         max-width:140px!important;
-     }
-     .goodmill-logo{
-         max-width:155px!important;
-     }
-     .large-header h3 {
+    margin-top: 2rem;
+  }
+
+  .hero-video video {
+    height: 125lvh;
+    object-fit: cover;
+    object-position: 10%;
+  }
+
+  .company-logo-a {
+    margin-left: unset;
+  }
+  .digia-logo {
+    max-width: 110px !important;
+  }
+  .modirum-logo {
+    max-width: 140px !important;
+  }
+  .goodmill-logo {
+    max-width: 155px !important;
+  }
+  .large-header h3 {
     font-size: 2rem;
     margin-bottom: 3rem;
-}
-     .footer-company{
-         margin-bottom: 1rem;margin-top: 2rem;
-     }
-     
-     .footer-deco {
+  }
+  .footer-company {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .footer-deco {
     min-height: 115px;
     background-size: 200%;
     background-position: center top;
-         background-repeat: no-repeat;}
-     
-     
-     
-      h1{
-     font-size:2rem;
-     text-transform: uppercase;
-     font-weight: bold;
-         font-family: 'Gotham-Bold';
+    background-repeat: no-repeat;
+  }
 
+  h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Gotham-Bold";
+  }
+  h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Gotham-Bold";
+  }
+  h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Gotham-Bold";
+  }
+  p {
+    font-size: 0.9rem;
+    font-family: "Gotham Book";
+  }
+
+  .pt-8 {
+    padding-top: 4rem !important;
+  }
+  .pb-8 {
+    padding-bottom: 4rem !important;
+  }
 }
- h2{
-     font-size: 1.4rem;
-     text-transform: uppercase;
-     font-weight: bold;
-         font-family: 'Gotham-Bold';
-
-}
- h3{
-     font-size: 1.1rem;
-     text-transform: uppercase;
-     font-weight: bold;
-         font-family: 'Gotham-Bold';
-
-}
- p{
-     font-size:.9rem;
-      font-family: 'Gotham Book'; 
-}
-     
-     
-     
-     
-     
-     .pt-8{
-         padding-top: 4rem!Important
-     }
-     .pb-8{
-        padding-bottom: 4rem!important
-     }
-     
-}
-
-
-
 
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
   scrollbar-color: grey;
 }
-
-
-
-
-
-
